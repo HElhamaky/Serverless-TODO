@@ -18,11 +18,11 @@ const createHandler: APIGatewayProxyHandler = async (event: APIGatewayProxyEvent
   const split = authorization.split(' ');
   const jwtToken = split[1];
 
-  const newItem = await createTodo(newTodo, jwtToken);
+  const item = await createTodo(newTodo, jwtToken);
   return {
       statusCode: 201,
       body: JSON.stringify({
-          newItem,
+          item,
       }),
   };
 };
