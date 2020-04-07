@@ -1,0 +1,37 @@
+{
+  "name": "serverless-todo-app",
+  "version": "1.0.0",
+  "description": "Serverless TODO image app",
+  "dependencies": {
+    "@types/axios": "^0.14.0",
+    "@types/http-errors": "^1.6.1",
+    "aws-xray-sdk": "^2.2.0",
+    "axios": "^0.19.0",
+    "http-errors": "^1.7.2",
+    "jsonwebtoken": "^8.5.1",
+    "middy": "^0.27.0",
+    "source-map-support": "^0.5.11",
+    "uuid": "^3.3.2",
+    "winston": "^3.2.1"
+  },
+  "devDependencies": {
+    "@types/aws-lambda": "^8.10.37",
+    "@types/jsonwebtoken": "^8.3.5",
+    "@types/node": "^10.17.9",
+    "aws-sdk": "^2.588.0",
+    "serverless-aws-documentation": "^1.1.0",
+    "serverless-iam-roles-per-function": "^1.0.4",
+    "serverless-plugin-canary-deployments": "^0.4.8",
+    "serverless-reqvalidator-plugin": "^1.0.3",
+    "serverless-webpack": "^5.3.1",
+    "serverless": "^1.49.0",
+    "serverless-dynamodb-local": "^0.2.38",
+    "serverless-offline": "^5.8.0",
+    "serverless-s3-local": "^0.5.0",
+    "ts-loader": "^5.4.5",
+    "typescript": "^3.7.3",
+    "webpack": "^4.41.2"
+  },
+  "author": "Hassan Elhamaky",
+  "license": "MIT"
+}
