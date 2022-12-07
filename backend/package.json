@@ -24,7 +24,7 @@
     "serverless-plugin-canary-deployments": "^0.4.8",
     "serverless-reqvalidator-plugin": "^1.0.3",
     "serverless-webpack": "^5.3.1",
-    "serverless": "^1.49.0",
+    "serverless": "^3.25.1",
     "serverless-dynamodb-local": "^0.2.38",
     "serverless-offline": "^5.8.0",
     "serverless-s3-local": "^0.5.0",
